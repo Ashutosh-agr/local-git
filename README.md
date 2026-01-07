@@ -45,20 +45,19 @@ All components are implemented manually in Java without relying on existing Git 
 
 ## 🛠 Tech Stack
 
-- **Language:** Java  
-- **Networking:** Java HTTP Client  
-- **Compression:** Zlib  
-- **Hashing:** SHA-1  
-- **Protocol:** Git Smart HTTP  
+- **Language:** Java
+- **Networking:** Java HTTP Client
+- **Compression:** Zlib
+- **Hashing:** SHA-1
+- **Protocol:** Git Smart HTTP
 
 ---
 
-## Verification
+## How to Run
 
-The repositories created by this implementation are fully compatible with the official Git CLI and can be verified using commands such as:
+### Compile the Source Code
+
+From the repository root:
 
 ```bash
-git status
-git log
-git show
-git ls-tree
+javac src/main/java/*.java
